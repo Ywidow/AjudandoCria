@@ -6,6 +6,7 @@
 
 using namespace std;
 
+// Função para exibir mensagem de valor inválido
 void PrintInvalidValueMessage() {
 	system("cls");
 
@@ -15,21 +16,24 @@ void PrintInvalidValueMessage() {
 	system("cls");
 };
 
+// Função para exibir mensagem de continuação
 void PrintPressKeyMessage() {
 	cout << "Pressione enter para continuar..." << endl;
 	system("pause");
 }
 
+// Função para exibir mensagem de adeus
 void PrintByeByeMessage() {
-	cout << "Obrigado Pela Prefer�ncia!!!" << endl;
+	cout << "Obrigado Pela Preferência!!!" << endl;
 	system("pause");
 	system("cls");
 }
 
+// Função para exibir mensagem que não existe guiches no momento
 void PrintNoTicketWindowsMessage() {
 	system("cls");
 	
-	cout << "Infelizmente n�o h� guiches param serem utilizados..." << endl;
+	cout << "Infelizmente não há guiches param serem utilizados..." << endl;
 
 	system("pause");
 	system("cls");
